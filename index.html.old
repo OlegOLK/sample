@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./tailwind.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <div class="flex flex-row gap-4">
+   
+            <div class="flex flex-col w-full"> 
+        <div class="w-full h-10 bg-yellow-50 my-2 rounded-lg flex align-center items-stretch shadow-inner justify-between ">
+        <div class="vip-row text-white bg-yellow-500 h-full rounded-l-lg w-16 shadow-inner text-center" >Scryde</div>
+
+        <div class="h-full">x100</div>
+        <div class="h-full">Interlude</div>
+        <div class="h-full">21.03.21</div>
+
+        <!-- <div class="row-details">
+            XP:x10
+            XP:x10
+            XP:x10
+            XP:x10
+        </div>     -->
+
+            <!-- <div class="bg-blue-500 w-16 shadow-lg  rounded-lg text-center">vip</div>
+            <div class="bg-red-500 w-16 rounded-lg shadow-inner text-center">vip</div>
+            <div class="bg-green-500 w-16 rounded-lg shadow-inner text-center">vip</div>
+            <div class="bg-yellow-500 w-16 rounded-lg shadow-xl  text-center">vip</div> -->
+        </div>
+    </div>    
+        <div class="flex flex-col w-full"> 
+        <div class="hover:shadow-2xl hover:bg-white w-full h-16  my-2 rounded-lg flex align-center items-center border justify-around ">
+                <div class="rounded-xl ml-5 bg-red-50 w-16 h-3/4 shadow-inner text-center flex-none flex items-center">
+                    <img src="fire.svg" class="object-fill h-3/4 w-16"  />
+                </div>
+                <div class="w-full pl-2">
+                    Scryde
+                </div>
+                <div class="w-full">
+                    x100
+                </div>
+                <div class="mr-2">
+                    21.03.21
+                </div>
+            </div>
+
+
+            <div class="
+            transition duration-500 ease-in-out
+            transform
+            hover:-translate-y-1 hover:scale-110
+            hover:shadow-2xl hover:bg-yellow-500 w-full h-16  my-2 rounded-lg flex align-center items-center border justify-around ">
+                <div class="rounded-xl ml-5 bg-red-50 w-16 h-3/4 shadow-inner text-center flex-none flex items-center">
+                    <img src="fire.svg" class="object-fill h-3/4 w-16"  />
+                </div>
+                <div class="w-full pl-2">
+                    Scryde
+                </div>
+                <div class="w-full">
+                    x100
+                </div>
+                <div class="mr-2">
+                    21.03.21
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>  
+
+    <script>
+        var details = document.querySelectorAll(".row-details");
+        var rows = document.querySelectorAll(".vip-row");
+        rows.forEach((el, index)=>{
+
+        });
+    </script>
+</body>
+
+</html>
